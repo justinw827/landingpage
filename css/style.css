@@ -1,3 +1,8 @@
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+color: #838994;
+letter-spacing: 0.03em;
+
 body {
     background-color: LightGray;
 }
@@ -6,6 +11,7 @@ div {
 }
 html {
 	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
 }
 *, *:before, *:after {
 	box-sizing: inherit;
@@ -22,8 +28,9 @@ html {
 .content {
 	padding: 0px 15px;
 }
-.top-navigation > .links {
+.content > .links {
 	float: right;
+	margin-top: 1.7rem;
 }
 .links > li {
 	display: inline-block;
