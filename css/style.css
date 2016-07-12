@@ -1,9 +1,5 @@
 body {
-    background-color: LightGray;
     font-family: 'Roboto', sans-serif;
-}
-div {
-    border: 1px solid Chocolate;
 }
 html {
 	box-sizing: border-box;
@@ -72,6 +68,8 @@ html {
     margin-top: 1.563rem;
 }
 button {
+	display: block;
+	margin: 0 auto;
 	width: 9.688rem;
     background-color: #f15a29;
     border-color: #f15a29;
