@@ -11,6 +11,9 @@ html {
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 .top-navigation > .content {
 	width: 970px;
@@ -53,6 +56,10 @@ html {
     height: 45.938rem;
     overflow: auto;
 }
+.introduction h1 {
+    margin-top: 17.5rem;
+    font-size: 3.125rem;
+}
 .introduction h3 {
     margin-top: 1.25rem;
     font-size: 1.563rem;
@@ -80,4 +87,39 @@ button {
     color: white;
     font-size: 1.125rem;
 }
+.cases {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 5rem;
+}
+.cases .content {
+    margin-top: 7.875rem;
+    color: #1d1e21;
+    text-align: center;
+}
+.cases h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+}
+.cases .devices > li {
+    width: 33.3333333%;
+    float: left;
+    display: inline-block;
+}
+/*.flex-container {
+	padding: 0;
+	margin: 0;
+	list-style: none;
 
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+
+  	flex-flow: row wrap;
+  
+  	-webkit-flex-flow: row wrap;
+  	justify-content: space-around;
+}*/
