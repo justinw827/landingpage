@@ -113,6 +113,12 @@ button {
     box-sizing: border-box;
     height: 4em;
 }
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
 .social .icons > li {
 	border-radius: 1.25rem;
     width: 2.5rem;
