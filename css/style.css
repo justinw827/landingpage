@@ -21,7 +21,6 @@ html {
 	margin: 0 auto;
 }
 .content {
-    padding: 0 0.938rem;
     margin: 0 auto;
     min-width: 37.5rem;
     text-align: center;
@@ -96,28 +95,33 @@ button {
 }*/
 .cases .content {
     margin-top: 7.875rem;
+    width: 970px;   
 }
 .cases h3 {
     font-size: 2.75rem;
-    margin: 1.625rem 0 3.125rem;
+    margin: 1.625rem;
     font-weight: 300;
 }
 .cases .devices {
-    width: 33.3333333%;
+    width: 32%;
 	list-style: none;
-    display: flex;
-    flex-direction: row wrap;
-    justify-content: space-around;
+    display: inline-block;
+/*    flex-direction: row wrap;
+    justify-content: space-around;*/
     /* styles to assist with debugging */
-    border: 1px solid black;
-    box-sizing: border-box;
-    height: 4em;
+    /*border: 1px solid black;
+*/  box-sizing: border-box;
+    text-align: center;
 }
 .social {
     background-color: #fff;
     overflow: auto;
     padding-bottom: 9.375rem;
     text-align: center;
+}
+.social .icons {
+    margin: 0;
+    padding: 0;
 }
 .social .icons > li {
 	border-radius: 1.25rem;
