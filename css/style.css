@@ -87,12 +87,6 @@ button {
     color: white;
     font-size: 1.125rem;
 }
-/*.cases {
-    background-color: #fff;
-    overflow: hidden;
-    padding-bottom: 5rem;
-    display: inline-block;
-}*/
 .cases .content {
     margin-top: 7.875rem;
     width: 970px;   
@@ -106,12 +100,9 @@ button {
     width: 32%;
 	list-style: none;
     display: inline-block;
-/*    flex-direction: row wrap;
-    justify-content: space-around;*/
-    /* styles to assist with debugging */
-    /*border: 1px solid black;
-*/  box-sizing: border-box;
+	box-sizing: border-box;
     text-align: center;
+    margin-top: 2rem;
 }
 .social {
     background-color: #fff;
